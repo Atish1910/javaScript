@@ -17,3 +17,4 @@ factors & Summation of factors
 factors & Summation of factors with Updator (-ve input ) 24, 25, 26
 
 find a perfect Number : 28is perfect number 
+find a perfect Number : 28is perfect number 
