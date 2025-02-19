@@ -1,0 +1,19 @@
+1. Reverse an Array
+2. Find the Largest Element in an Array
+3. Print a Pattern (Right-Angle Triangle)
+4 factorials approch 1
+5 factorials  Approch 2
+6 Write a program which checks whether number is even or odd. 
+7 Write a program which checks whether number is divisible by 3 and 5
+8 Write a program which accepts the marks and display the class accordingly
+
+Display "Jay Ganesh" 5 times on screen with updator
+Display "Jay Ganesh" 5 times on screen with user Input
+
+factors of 100 : 22
+factors of 100 Time complexity : O(N) : 22
+factors of 100 Time complexity : // O(N/2) : 22
+factors & Summation of factors
+factors & Summation of factors with Updator (-ve input ) 24, 25, 26
+
+find a perfect Number : 28is perfect number 
