@@ -1,0 +1,29 @@
+1 factorials approch 1 : 5-> 125
+2 factorials  Approch 2
+
+3 Write a program which checks whether number is even or odd. 
+4 Write a program which checks whether number is divisible by 3 and 5
+5 Write a program which accepts the marks and display the class accordingly
+
+6 Display "Jay Ganesh" 5 times on screen with updator
+7 Display "Jay Ganesh" 5 times on screen with user Input
+
+8 factors of 100 : 22
+9 factors of 100 Time complexity : O(N) : 22
+10 factors of 100 Time complexity : // O(N/2) : 22
+11 factors & Summation of factors
+12 factors & Summation of factors with Updator (-ve input ) 24, 25, 26
+
+13 find a perfect Number : 28is perfect number 
+
+14 Check Prime Number or Not 30 (2 Approches)
+
+15 take a base number & power calculte power 5^3 ? 625 (2 Approches)-> 32, 33, 34, 35
+
+17 : Factorial (5!) = 5 * 4 * 3 * 2 * 1   = 120 : for Loop
+18 : Factorial (5!) = 5 * 4 * 3 * 2 * 1   = 120 : Reverse for Loop with updator
+19 : Factorial (5!) = 5 * 4 * 3 * 2 * 1   = 120 : While Loop with updator
+20 : Factorial (5!) = 5 * 4 * 3 * 2 * 1   = 120 : Reverse While Loop with Updator
+
+
+

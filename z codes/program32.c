@@ -8,6 +8,10 @@ int CalculatePower(int iBase, int iPower)
 
     for(iCnt = 1; iCnt <= iPower; iCnt++)
     {
+        
+    //  iResult = 1 * 5 = 5;
+    //  iResult = 5 * 5 = 25;
+    //  iResult = 25 * 5 = 125 ;
         iResult = iResult * iBase;
     }
     return iResult;
