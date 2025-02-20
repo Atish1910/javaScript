@@ -25,5 +25,16 @@
 19 : Factorial (5!) = 5 * 4 * 3 * 2 * 1   = 120 : While Loop with updator
 20 : Factorial (5!) = 5 * 4 * 3 * 2 * 1   = 120 : Reverse While Loop with Updator
 
+: Take a number (12345) and returns its digits ->1 2 3 4 5 = 47
+: Take a number (12345) and returns its digits(with while loop) ->1 2 3 4 5 = 51
+: Take a number (12345) and returns Counts ->5 = 48
+: Take a number (12345) and returns Digits Sum ->15 = 50
+: Take a number (12345) and give digit(4) it is present is number or not? -> = 54
+: Display Digit with boolen (true or false) -> = 56
+: Count Digit Friquency -> = 57
+: Take a number (12345) and give digit(4) it is present is number or not Dynamically? -> = 59
+: Count Event Digits From Number 1234567 -> 3 = 61
+
+
 
 
