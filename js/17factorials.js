@@ -1,7 +1,7 @@
 // factorials 
 
 function factorials(){
-    const iNo = 8;
+    const iNo = 5;
     let iMult = 1;
     for(i = 1; i<= iNo; i++ ){
         iMult = iMult * i;
