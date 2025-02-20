@@ -6,6 +6,8 @@ void DisplayDigits(int iNo)
 
     while(iNo != 0)
     {
+
+        //iDigit = 12345 % 10; = 5
         iDigit = iNo % 10;
         printf("%d\n",iDigit);
         iNo = iNo / 10;
