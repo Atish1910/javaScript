@@ -1,14 +1,24 @@
-// : Take a number (12345) and returns its digits ->1 2 3 4 5 = 47
+function DisplayDigits(iNo) {
+    let iDigit = 0;
+    // let iDigit = 12.6;
 
-iValue = 12345;
-
-function displayDigits(iNo){
-    
-    iDigit = 0;
-    while(iNo != 0){
+    while (iNo != 0) {
+        // Extract last digit
+        // iDigit = 126 % 10 = 6; // 1ST ITERATION
+        // iDigit = 12 % 10 = 2; // 2nd ITERATION
+        // iDigit = 1 % 10 = 1; // 3rd ITERATION
         iDigit = iNo % 10;
         console.log(iDigit);
-        iNo = iNo / 10;
+        
+        // Remove last digit
+        // iNo = 12
+        // iNo = 1
+        // iNo = 0
+        iNo = (iNo / 10 )| 0;  // Using bitwise OR to simulate integer division
     }
 }
-displayDigits(iValue);
+
+// Hardcoded input
+let iValue = 126;
+console.log("Number:", iValue);
+DisplayDigits(iValue);

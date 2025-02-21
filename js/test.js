@@ -1,13 +1,16 @@
-// 15 take a base number & power calculte power 5^3 ? 625 (2 Approches)-> 32, 33, 34, 35
+// num 1910 -> convert to Digits 
+// 1
+// 9
+// 1
+// 0
 
-iVal1 = 9
-
-function calcPower(iBase){
-    iMult = 1;
-    for(i = 1; i<= iBase; i++){
-        
-        iMult = iMult *i;
-        console.log(iMult);
+function displayDigits(iNo){
+    iDigit = 1;
+    while(iNo != 0){
+        iDigit = iNo % 10;
+        console.log(iDigit);
+        iNo = iNo / 10 | 0; 
     }
 }
-calcPower(iVal1);
+
+displayDigits(1910);
