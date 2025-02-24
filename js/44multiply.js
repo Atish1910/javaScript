@@ -3,10 +3,9 @@
 
 let iValue = 10;
 iMult = 1;
-iVal= 4
 function iTable(iNo){
     for(i = 1; i <= iNo; i++){
-        iMult = iVal * i;
+        iMult = 4 * i;
         console.log(iMult);
     }
 }
