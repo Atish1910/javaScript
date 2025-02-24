@@ -1,17 +1,16 @@
-// print char from a to k with char increment  =>102
 
-// print A 5 times with for loop => 94
-// ASCII Value A TO Z : 65 to 90
-// ASCII Value a TO z : 97 to 112
+// print Number 1 2 3  (4Rows , 5Col) => 114
+iRow = 5;
+iCol = 4;
 
-let charFrequency = 8;
-
-function DisplayChar(charCount){
-
-    for(i = 0; i< charCount; i++){
-        let char = String.fromCharCode(97 + i);
-        console.log(char);
+function Display(iRow, iCol){
+    for(i = 1; i <= iRow; i++){
+        row = "";        
+        for(j = 1; j <= iCol; j++){
+            row = `${row} ${j} \t`;
+        }
+        console.log(row);
     }
-
 }
-DisplayChar(charFrequency);
+
+Display(iRow, iCol);
