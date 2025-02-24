@@ -6,7 +6,7 @@ function factorials(){
     for(i = 1; i<= iNo; i++ ){
         iMult = iMult * i;
     }
-    console.log(`factorails of ${iNo} is : ${iMult}`)
+    console.log(`factorails of ${iNo} is : ${iMult}`);
 }
 factorials()
 
