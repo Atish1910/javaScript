@@ -53,7 +53,16 @@ take array are return its Smallest & highest Number : 86
 Take array and search digit is presnet in array or not  : 88
 Take array and search digit & its occurance is presnet in array or not  : 90
 
-Pattern Printing
+print * 5 times with for loop => 94
+print * 5 times with Reverse for loop => 100
+print 1 to 6 Numbers & *  for loop => 101
+print char from a to k with char increment  =>102
+print char & num  => 105
+print table of 4   => 106
+print 1 2 3 4 5 5 4 3 2 1  =>107
+print 1 2 3 4 5 4 3 2 1  => 108
+print -5 , -4, -3, -2, -1  => 110
+print -5 , -4, -3, -2, -1 0 1 2 3 4 5  => 111;
 
 
 .
