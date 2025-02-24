@@ -7,7 +7,7 @@ function displayEvenCount(iNo){
     iDigit = 0;
     while(iNo != 0){
         iDigit = iNo % 10;
-        console.log(iDigit);
+        console.log( "Total Digits Are: " + iDigit);
         iNo = iNo / 10 | 0;
 
         if(iDigit % 2 == 0){
