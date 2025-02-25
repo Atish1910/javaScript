@@ -14,7 +14,8 @@
 <body>
 
     
-    <div class="container-fluid">
+    <div class="container mt-5 pt-5">
+        <div class="">Pattern Printing </div>
         <div class="row">
             <div class="col-md-4 border text-center">
                 <h3 class="">Pattern1</h3>

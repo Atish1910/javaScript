@@ -8,7 +8,7 @@ function DisplayDigitsSum(iValue){
         console.log(iDigit);
         iSum = iSum + iDigit;
     }
-    console.log("Sum of all digits are" + iSum);
+    console.log("Sum of all digits are : " + iSum);
 }
 iRet = DisplayDigitsSum(iNo);
 console.log(iRet);
