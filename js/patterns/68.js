@@ -20,11 +20,12 @@ function Display(iRow, iCol){
     for(i = 1; i <= iRow; i++){
         for(j = 1; j <= iCol; j++){
 
-            if(i == 1 || i == iRow || j == 1 || j == iCol){
-                document.write("& \t");
+            if(i == 1 || i == j || i == iRow || j == 1 || j == iCol){
+                document.write("$ \t");
+                document.write("\t");
             }
             else{
-                document.write("");
+                document.write("&");
 
             }
         }

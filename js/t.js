@@ -1,16 +1,17 @@
-
-// print Number 1 2 3  (4Rows , 5Col) => 114
-iRow = 5;
-iCol = 4;
-
-function Display(iRow, iCol){
-    for(i = 1; i <= iRow; i++){
-        row = "";        
-        for(j = 1; j <= iCol; j++){
-            row = `${row} ${j} \t`;
+function Display(iRow, iCol) {
+    for (let i = 1; i <= iRow; i++) {
+        let row = ""; // Store row pattern
+        for (let j = 1; j <= iCol; j++) {
+            if (i == 1 || i == iRow || j == 1 || j == iCol) {
+                row += "*\t"; // Border stars
+            } else {
+                row += " \t"; // Spaces for hollow part
+            }
         }
-        console.log(row);
+        console.log(row); // Print each row
     }
 }
 
+// Hardcoded values
+let iRow = 6, iCol = 6;
 Display(iRow, iCol);
