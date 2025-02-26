@@ -8,8 +8,8 @@
 //     *
 
 
-iRow = 5; 
-iCol = 5;
+iRow = 6; 
+iCol = 6;
 
 function Display(iRow, iCol){
 
@@ -25,7 +25,7 @@ function Display(iRow, iCol){
     }
     for(i = iRow; i >= 1; i--){
         for(j = 1; j <= iCol; j++){
-            if(i > j ){
+            if(i >= j ){
                 document.write("X\t");
             }
             else{

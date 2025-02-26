@@ -6,12 +6,12 @@
 
 
     Output : 
+    - - - - - X
+    - - - - X X
+    - - - X X X
+    - - X X X X
+    - X X X X X
     X X X X X X
-    X X X X X -
-    X X X X - -
-    X X X - - -
-    X X - - - -
-    X - - - - -
             
 */  
 
@@ -22,7 +22,7 @@ Display(iRow, iCol);
 function Display(iRow, iCol) {
     for(i = iRow; i >= 1; i--){
         for(j = 1; j <= iCol; j++){
-            if(i >= j){
+            if(i <= j){
                 document.write("X\t");
             }
             else{
