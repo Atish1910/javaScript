@@ -5,10 +5,12 @@
     Col : 4
 
     Output : 
-    *   *   *   #
-    *   *   #   $ 
-    *   #   $   $
-    #   $   $   $
+    Y Y Y Y Y X
+    Y Y Y Y X Z
+    Y Y Y X Z Z
+    Y Y X Z Z Z
+    Y X Z Z Z Z
+    X Z Z Z Z Z
             
 */  
 

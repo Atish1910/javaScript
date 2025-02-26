@@ -15,7 +15,6 @@
 iRow = 6, iCol = 6;
 
 
-Display(iRow, iCol);
 function Display(iRow, iCol) {
     for(i = iRow; i >= 1; i--){
         for(j = 1; j <= i; j++){
@@ -27,6 +26,7 @@ function Display(iRow, iCol) {
             }
         }
         document.write("<br>");
-
+        
     }
 }
+Display(iRow, iCol);
