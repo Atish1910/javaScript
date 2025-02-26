@@ -1,17 +1,21 @@
-function Display(iRow, iCol) {
-    for (let i = 1; i <= iRow; i++) {
-        let row = ""; // Store row pattern
-        for (let j = 1; j <= iCol; j++) {
-            if (i == 1 || i == iRow || j == 1 || j == iCol) {
-                row += "*\t"; // Border stars
-            } else {
-                row += " \t"; // Spaces for hollow part
-            }
-        }
-        console.log(row); // Print each row
+// check it is digit or not => 156 (48 to 57)
+
+iNo = "5";
+
+function Display(iNo){
+    asciNum = iNo.charCodeAt(0);
+    if(asciNum >= 48 && asciNum <= 57){
+        return true;
+    }
+    else{
+        return false;
     }
 }
 
-// Hardcoded values
-let iRow = 6, iCol = 6;
-Display(iRow, iCol);
+iRet = Display(iNo);
+if(iRet){
+    console.log("Its Number");
+}
+else{
+    console.log("Its Not Number");
+}

@@ -1,10 +1,10 @@
-// check it is digit or not => 156
-iChar = 6;
+// check it is digit or not => 156 (48 to 57)
+iChar = '6';
 
 function dsiplayASCI(iChar){
-    asciNum = iChar.charCodeAt(0);
+    asci = iChar.charCodeAt(0);
 
-    if(asciNum >= 0 && asciNum <= 9){
+    if(asci >= 48  && asci <= 57){
         return true;
     }
     else{

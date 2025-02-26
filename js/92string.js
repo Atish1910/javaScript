@@ -1,4 +1,4 @@
-// take a 1 letter and check where it is Capital or not with ASCII Value => 153
+// take a 1 letter and check where it is Capital or not with ASCII Value => 153 (65 to 90)
 
 
 
