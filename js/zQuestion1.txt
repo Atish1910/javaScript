@@ -83,7 +83,7 @@ js/ Pattern / 51.js to 90.js
 ===============================================================
 ->All Programs On String 
 Print ASCII Table Value => 152
-take a 1 letter and check where it is Capital or not with ASCII Value => 153
+// take a 1 letter and check where it is Capital or not with ASCII Value => 153 (65 to 90)
 take a 1 letter and check where it is Capital or not with charactor (a to z) => 154
 take a 1 letter and check where it is smallcase or not with ASCII Value => 155
 check it is digit or not => 156
