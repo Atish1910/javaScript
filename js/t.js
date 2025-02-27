@@ -1,21 +1,22 @@
-// check it is digit or not => 156 (48 to 57)
+// take array are return its Even Number : 76 // 
+// return numbers array addition [3,5,71,8] => 87 //
+// take array are return its addition : 83
+// take array are return its Odd Number : 83 //
+// take array are return its Maximum Number : 83
+// take array are return its Smallest Number : 84
+// take array are return its Smallest & highest Number : 86
+// Take array and search digit is presnet in array or not  : 88
+// Take array and search digit & its occurance is presnet in array or not  : 90
+iArr = [10,12,7,31,123,51];
 
-iNo = "5";
-
-function Display(iNo){
-    asciNum = iNo.charCodeAt(0);
-    if(asciNum >= 48 && asciNum <= 57){
-        return true;
+function arrDisplay(iArr){
+    iMax = iArr[0];
+    for(i = 0; i < iArr.length; i++){
+        if(iMax > iArr[i]){
+            iMax = iArr[i] ;
+        }
     }
-    else{
-        return false;
-    }
+    console.log("max Num is : "+iMax);
 }
 
-iRet = Display(iNo);
-if(iRet){
-    console.log("Its Number");
-}
-else{
-    console.log("Its Not Number");
-}
+arrDisplay(iArr);
