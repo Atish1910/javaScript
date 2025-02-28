@@ -1,20 +1,25 @@
-// take a string and count its smallcase letter from string AtiSH : 2 small letter => 162 
+// count Blank Spaces
 
-iStr = "AtiShKaMbLE";
+iStr = "atish Jka aL  UE fgC y G d S e rrK yu";
+iCntBlank = 0;
+iCntSmall = 0;
+iCntCapital = 0;
 
-function strlen(iStr){
+function strBlank(iStr){
     i = 0;
-    iSmall = 0;
-    iCap = 0;
     while(iStr[i] != undefined){
-        console.log(iStr[i]);
         i++;
-        if( iStr[i] > "A" && iStr[i] < "Z"){
-            iCap++;
-        }else if(iStr[i] > "a" && iStr[i] < "z"){
-            iSmall++;
+        if(iStr[i] == " "){
+            iCntBlank++
+        }else if(iStr[i] < 'a' || iStr[i] > 'z'){
+            iCntSmall++;
+        }else{
+            iCntCapital++;
         }
     }
-    console.log(`${iSmall} Small Letter & ${iCap} Capital Letters`);
+    console.log(` ${iCntBlank} Blank Spaces in STring`)
+    console.log(` ${iCntSmall} Small Letters in STring`)
+    console.log(` ${iCntCapital} Capital Letters in STring`)
 }
-strlen(iStr);
+
+strBlank(iStr);

@@ -1,28 +1,23 @@
 // take a string and find Last Occurance of its Specific Letter (a) from string ztishVinayakKamble : 12th index (a) => 174
 
-const ERR_NOTFOUND = -1;
-
-function LastOccurance(str, cValue) {
-    let iPos = ERR_NOTFOUND;
-    let iCnt = 0; // To match 1-based indexing like C
-
-    for (let i = 0; str[i] !== undefined; i++) {
-        if (str[i] === cValue) {
-            iPos = iCnt;
+iStr = "kdsjfhkhsdfjkhdfsbmbksjdfhsdkjfhdskjhsdkjh";
+function lastOccuranceInString(iStr){
+    iPos = 0;
+    iCnt = 0
+    for(i = 0; iStr[i] != undefined; i++){
+        if(iStr[i] == "k"){
+            iPos = i;
+            iCnt++;
         }
-        iCnt++;
     }
     return iPos;
 }
 
-// Hardcoded input string
-let Arr = "hello world";  
-let ch = 'o';
+iRet = lastOccuranceInString(iStr);
 
-let iRet = LastOccurance(Arr, ch);
-
-if (iRet === ERR_NOTFOUND) {
-    console.log("There is no such character");
-} else {
-    console.log("Last occurrence of that character is at:", iRet);
+if(iRet == 0){
+    console.log(`k is Not found`);
+}
+else{
+    console.log(`${iCnt} time k is Found, & last occurance is at ${iPos} index`);
 }
