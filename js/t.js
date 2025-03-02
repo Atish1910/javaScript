@@ -1,25 +1,20 @@
-// count Blank Spaces
+//replace space with _;
+iStr = "Atish Vinayak Kamble I wNt To Become Software Developer";
 
-iStr = "atish Jka aL  UE fgC y G d S e rrK yu";
-iCntBlank = 0;
-iCntSmall = 0;
-iCntCapital = 0;
-
-function strBlank(iStr){
+function strEdit(iStr){
     i = 0;
+    iCnt = 0;
+    iStrNew = "";
     while(iStr[i] != undefined){
-        i++;
         if(iStr[i] == " "){
-            iCntBlank++
-        }else if(iStr[i] < 'a' || iStr[i] > 'z'){
-            iCntSmall++;
-        }else{
-            iCntCapital++;
+            iStrNew = iStrNew + "_"; 
+            iCnt++
+        }
+        else{
+            iStrNew = iStrNew + iStr[i];
+            i++;
         }
     }
-    console.log(` ${iCntBlank} Blank Spaces in STring`)
-    console.log(` ${iCntSmall} Small Letters in STring`)
-    console.log(` ${iCntCapital} Capital Letters in STring`)
+    console.log(iStrNew);
 }
-
-strBlank(iStr);
+strEdit(iStr);
