@@ -117,6 +117,7 @@ take 2 number and console highest number (ip : 15, 17 op : 17)  => 204
 ==========================================================================================
 java code conversion to js
 -> Chcek where the number is Armstrong number or not (true or false); => 332
+382
 ==========================================================================================
 
 
