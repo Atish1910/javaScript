@@ -1,8 +1,13 @@
-function dsiplayASCI(){
-    for(i = 0; i< 127; i++){
-        ASCI = String.fromCharCode(17 + i);
-        document.write(ASCI+ "\n");
+iStr = "Geeks";
+
+function strReverse(iStr) {
+    i = iStr.length-1;
+    iDigit = "";
+    while (i >= 0 ) {
+        iDigit = iDigit + iStr[i];
+        i--;
     }
+    console.log(iDigit);
 }
 
-dsiplayASCI();
+strReverse(iStr);
