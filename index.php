@@ -21,7 +21,7 @@
         <h1 class="text-center text-ftcolor">Pattern Printing</h1>
         <div class="container mt-5 pt-5">
         <div class="row justify-content-center mb-5">
-                <div class="col-md-3 text-center border py-3">
+                <div class="col-md-12 text-center border py-3">
                     <h3 class="">Practice </h3>
                     <script src="js/patterns/test.js"></script>
                 </div>

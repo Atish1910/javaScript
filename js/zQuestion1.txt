@@ -114,6 +114,23 @@ Concat 2 string together (string 1 : Demo , STring 2 : Atish -> Demo Atish ) => 
 C++ Code Started from Here 203 to 252
 ==========================================================================================
 take 2 number and console highest number (ip : 15, 17 op : 17)  => 204
+==========================================================================================
+java code conversion to js
+-> Chcek where the number is Armstrong number or not (true or false); => 332
+382
+==========================================================================================
+
+==========================================================================================
+take integer as parameter and return following string 
+ip 10
+op-> zero
+ip 5
+-> Five
+divisible by 2
+-> Even
+not divisible by 2
+-> odd number
+==========================================================================================
 
 
 
