@@ -103,30 +103,30 @@ Let's take an example:
  (It handles Dependency Injection, CSS encapsulation, httpClient, Form validation, routing etc.)
 
 
-	Framework										Library
+	Framework										                     Library
 =========================================================================
--group of libraries to make your work easier	-performs specific, well-defined operations
--provides ready to use tools,standards			-provides reusable functions for our code
+-group of libraries to make your work easier	    -performs specific, well-defined operations
+-provides ready to use tools,standards			      -provides reusable functions for our code
  templates for fast application development
--Collection of libraries & APIs					-collection of helper functions,objects
--cann't be easily replaceable 					-can be easily replaceable by another
--angular,vue									-jQuery,ReactJs,lodash,moment
--Hospital with full of doctors					-A doctor who specializes in one 		
+-Collection of libraries & APIs					          -collection of helper functions,objects
+-cann't be easily replaceable 					          -can be easily replaceable by another
+-angular,vue									                    -jQuery,ReactJs,lodash,moment
+-Hospital with full of doctors					          -A doctor who specializes in one 		
 
 
 
-		React						Angular
+	React						              Angular
 ===========================================================
-1. Library-2013					 1. Framework-2009
-2. Light-weight					 2. Heavy
-3. JSX + Javascript				 3. HTML + Typescript
-4. Uni-Directional				 4. Two-way
-5. Virtual DOM					 5. Regular DOM
-6. Axios 				 		 6. HttpClientModule 
-7. No 		 					 7. Dependency Injection
-8. No							 8. Form Validation
-9. extra libraries needed		 9. No additional libraries
-10. UI heavy					 10. Functionality Heavy
+1. Library-2013					        1. Framework-2009
+2. Light-weight					        2. Heavy
+3. JSX + Javascript				      3. HTML + Typescript
+4. Uni-Directional				      4. Two-way
+5. Virtual DOM					        5. Regular DOM
+6. Axios 				 		            6. HttpClientModule 
+7. No 		 					            7. Dependency Injection
+8. No							              8. Form Validation
+9. extra libraries needed		    9. No additional libraries
+10. UI heavy					          10. Functionality Heavy
 
 
 
@@ -145,10 +145,8 @@ React Features
 Why virtual DOM?
 ===============
 -Frequent DOM manipulations are expensive and performance heavy. 
--Every time the DOM changes, browser would need to recalculate the CSS, 
- run layout and repaint the web page.
--we need a way to minimize the time it takes to repaint the screen. 
- This is where the Virtual DOM comes in.
+-Every time the DOM changes, browser would need to recalculate the CSS,  run layout and repaint the web page.
+-we need a way to minimize the time it takes to repaint the screen.  This is where the Virtual DOM comes in.
  
  
 What Virtual DOM is
@@ -164,9 +162,7 @@ What Virtual DOM is
  
 How does React Work? (Virtual DOM)
 ====================
--A virtual DOM is a lightweight JavaScript object which is just a copy of the
- real DOM. It is a node tree that lists the elements, their attributes and content as 
- Objects and their properties.
+-A virtual DOM is a lightweight JavaScript object which is just a copy of the  real DOM. It is a node tree that lists the elements, their attributes and content as Objects and their properties.
 -React creates a VIRTUAL DOM in memory.
 -Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulations, before making the changes in the browser DOM.
 -React finds out what changes have been made,and changes only what 
