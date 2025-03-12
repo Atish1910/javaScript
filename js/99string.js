@@ -1,6 +1,6 @@
 // take a string and count its Capital  letter from string AtiSH : 3 Sapital letter => 163 
 
-iStr = 'AKJHkhgfhgfgfgafhGFHGFHGF';
+iStr = 'AKJHkhgfhgfgfgafhGFHG';
 
 function strlenUpper(iStr){
     i = 0;
@@ -8,6 +8,7 @@ function strlenUpper(iStr){
 
     while(iStr[i] !== undefined){
         if(iStr[i] >= 'A' && iStr[i] <= 'Z'){
+            // iUpperChar++;
             iUpperChar++;
         }
         i++;
@@ -15,3 +16,5 @@ function strlenUpper(iStr){
     console.log(` Total No Of Upper Case Char in ABove STring is :  ${iUpperChar}`);
 }
 strlenUpper(iStr);
+// strlenUpper(iStr);
+strlenUpper(iStr)
