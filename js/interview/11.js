@@ -4,11 +4,11 @@ function test(){
     console.log(test.abc);
 }
 
-test();
-
+test();              // undefined
 test.abc = 400;
+test();              // 400
 test.abc = 600;
-test();
+test();              // 600
 
 
 // op 
