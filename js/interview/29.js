@@ -4,3 +4,7 @@ console.log(x == y); // true
 console.log(x === y); // true
 
 console.log(Object.is(x,y));
+
+// true
+// true
+// true
