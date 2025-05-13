@@ -1,7 +1,1 @@
-'use strict'
-
-function interview(){
-    salary = 26000;
-    console.log(salary)
-}
-interview();
+// take a Number and Reverse It (ip: 12345)->(o/p: 54321) 63 
